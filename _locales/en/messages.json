@@ -1,14 +1,14 @@
 {
   "Name" :{
-    "message": "Close Tab Button",
+    "message": "New Tab Button",
     "description": ""
   },
   "Description" :{
-    "message": "Adds an ×-PageAction to close the tab",
+    "message": "Adds a + button to open a new tab",
     "description": ""
   },
-  "CloseTab": {
-    "message": "CloseTab",
+  "NewTab": {
+    "message": "New tab",
     "description": ""
   }
 }

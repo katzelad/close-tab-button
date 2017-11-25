@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-browser.pageAction.onClicked.addListener(tab => browser.tabs.remove(tab.id));
+browser.pageAction.onClicked.addListener(tab => browser.tabs.create());
 
 browser.tabs.onCreated.addListener(tab => browser.pageAction.show(tab.id));
 browser.tabs.onUpdated.addListener(tabId => browser.pageAction.show(tabId));
